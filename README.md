@@ -21,4 +21,5 @@ Training the PCE Module:
 
 Training Fine Tuner Module:
 
-Run the code in Matlab to train a Bagged Decision Tree for fine tuning the output.
+Run the code in Matlab to train a Bagged Decision Tree for fine tuning the output. 
+The input will be the 7 input parameters and 1 estimated output of PCE Module along with the actual output.

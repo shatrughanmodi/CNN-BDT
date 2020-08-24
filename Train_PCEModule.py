@@ -11,7 +11,7 @@ import time
 model = PCEModule();
 model = model.cuda();
 
-data = LoadDataset(path_to_mat_file='../Norm_InputData.mat');
+data = LoadDataset(path_to_mat_file='../Norm_TrainingData.mat');
 
 ## create training and validation split 
 split = int(0.7 * len(data))
